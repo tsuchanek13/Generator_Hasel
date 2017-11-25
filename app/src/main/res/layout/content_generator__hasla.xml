@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/pobierzHaslo_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Pobierz Hasło"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <Button
+        android:id="@+id/wyczysc_ekran"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:text="Wyczyść Ekran "
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <Button
+        android:id="@+id/zapisz_do_bazy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zapisz do Bazy" />
+
+    <Button
+        android:id="@+id/wyswietlBazeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wyświetl zapisane hasła" />
+
+    <Button
+        android:id="@+id/usunBaze"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usun Hasła" />
+
+    <TextView
+        android:id="@+id/text_okno"
+        android:layout_width="396dp"
+        android:layout_height="431dp"
+        android:text="Witam Użytkowniku"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.821" />
+
+</LinearLayout>
